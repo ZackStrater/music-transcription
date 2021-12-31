@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3516322e-2579-4b85-b315-d1dc181b210a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/testaudio1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/testaudio1.wav.asd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/testmidi1.mid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated_song.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/process_song.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/process_song.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/process_song.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ableton_song.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/GitHub/perfect-pitch-ai" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/generated_song.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -61,8 +59,8 @@
       <recent name="D:\music-transcription\data" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="process_song" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.generated_song">
+    <configuration name="ableton_song" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="music-transcription" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +73,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/process_song.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ableton_song.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,6 +82,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="generated_song" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="music-transcription" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\ZackStrater\anaconda3\envs\music\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/generated_song.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ableton_song" />
+      <item itemvalue="Python.generated_song" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
@@ -113,35 +136,36 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="352" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639339026381">
+    <state x="352" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640653694917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1639339026381" />
-    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1640556931684">
+    <state x="352" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1640653694917" />
+    <state x="341" y="101" key="FileChooserDialogImpl" timestamp="1640650041641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1639340362605" />
-    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1640556931684" />
-    <state width="1193" height="96" key="GridCell.Tab.0.bottom" timestamp="1640564726375">
+    <state x="341" y="101" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1640650041641" />
+    <state width="758" height="187" key="GridCell.Tab.0.bottom" timestamp="1640934227887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1639362938081" />
-    <state width="1193" height="96" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1640564726375" />
-    <state width="1193" height="96" key="GridCell.Tab.0.center" timestamp="1640564726375">
+    <state width="1515" height="199" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1640924746212" />
+    <state width="758" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1640934227887" />
+    <state width="758" height="187" key="GridCell.Tab.0.center" timestamp="1640934227887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="207" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1639362938081" />
-    <state width="1193" height="96" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1640564726375" />
-    <state width="1193" height="96" key="GridCell.Tab.0.left" timestamp="1640564726375">
+    <state width="1515" height="199" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1640924746212" />
+    <state width="758" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1640934227887" />
+    <state width="758" height="187" key="GridCell.Tab.0.left" timestamp="1640934227887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="207" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1639362938081" />
-    <state width="1193" height="96" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1640564726375" />
-    <state width="1193" height="96" key="GridCell.Tab.0.right" timestamp="1640564726375">
+    <state width="1515" height="199" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1640924746212" />
+    <state width="758" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1640934227887" />
+    <state width="758" height="187" key="GridCell.Tab.0.right" timestamp="1640934227887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="207" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1639362938081" />
-    <state width="1193" height="96" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1640564726375" />
+    <state width="1515" height="199" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1640924746212" />
+    <state width="758" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1640934227887" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1639338985931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
